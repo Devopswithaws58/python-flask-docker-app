@@ -1,6 +1,6 @@
-FROM python:3.6
+FROM python:3.10-alpine
 
-MAINTAINER Ashok Bollepalli "ashokitschool@gmail.com"
+LABEL mailid="awswithdevops727@gmail.com"
 
 COPY . /app
 
